@@ -19,4 +19,13 @@
         border-radius: 15px;
       }
     }
-    
+    footer {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 0.9em;
+        font-family: 'Zilla Slab', serif;
+        text-align: center;
+        background: #a0ca92;
+        border: double 5px white;
+        border-radius: 20px;
+      }
