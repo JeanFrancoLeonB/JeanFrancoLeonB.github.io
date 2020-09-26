@@ -5,7 +5,6 @@
   }
   body {
     margin: 0;
-    background-image: url(https://www.freepik.es/fotos-premium/representacion-3d-diseno-fondo-arte-abstracto-corte-papel-blanco-plantilla-sitio-web-o-plantilla-presentacion_7273646.htm);
   }
   main {
     display: block;
@@ -35,52 +34,20 @@
   strong {
     font-weight: bolder;
   }
-  code,
-  kbd,
-  samp {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-  }
   small {
-    font-size: 80%;
+    font-size: 70%;
   }
-  sub,
-  sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-  }
-  sub {
-    bottom: -0.25em;
-  }
-  sup {
-    top: -0.5em;
-  }
+ 
   img {
     border-style: none;
   }
-  button,
-  input,
-  optgroup,
-  select,
-  textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0; /* 2 */
-  }
-  button,
-  input { /* 1 */
-    overflow: visible;
-  }
-  button,
-  select { /* 1 */
-    text-transform: none;
-  }
-  button,
-  [type="button"],
-  [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button;
-  }
+  footer {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 0.9em;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    background: #a0ca92;
+    border: double 5px white;
+    border-radius: 20px;
+}
