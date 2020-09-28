@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color:#011C26;
+  background-color: #073b4c;
 }
 
 main,
@@ -47,8 +48,7 @@ main {
   max-width: 767px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr;
-  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 section h2 {
@@ -85,7 +85,7 @@ header {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 0px;
   padding: 20px;
 }
 footer p:last-child {

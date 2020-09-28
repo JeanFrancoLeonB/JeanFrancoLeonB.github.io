@@ -29,6 +29,22 @@ h2 {
 p {
   margin: 5px;
 }
+header img {
+    border: rgb(255, 255, 255);
+    max-width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 0.9em;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    background:  #1D6373;
+    border: double 5px white;
+    border-radius: 20px;
+  }
+
 footer a{
   color: #fff;
 }

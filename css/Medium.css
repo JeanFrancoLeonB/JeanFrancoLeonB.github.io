@@ -1,4 +1,4 @@
-@media only screen and (min-width:32em){
+@media only screen and (min-width:32.5em){
     h1{
       font-size: 3rem;
     } 
@@ -6,12 +6,9 @@
       font-size: 2rem;
     }
       header img {
+            float: right;
             margin-top: 5px;
             margin-right: 5px;
-            float: right;
-            border: rgb(255, 255, 255);
-            max-width: 200px;
-            height: auto;
             border-radius: 15px;
             box-shadow: 8px 8px 8px #444;
         }
@@ -19,13 +16,6 @@
         border-radius: 15px;
       }
     }
-    footer {
-        margin-top: 10px;
-        padding: 5px;
-        font-size: 0.9em;
-        font-family: 'Zilla Slab', serif;
-        text-align: center;
-        background: #a0ca92;
-        border: double 5px white;
-        border-radius: 20px;
-      }
+   
+     
+       
