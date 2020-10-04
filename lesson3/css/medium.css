@@ -11,11 +11,11 @@
       .grid-container {
         display: grid;
         font-size: 1rem;
-        grid-gap: 20px;
       }
       .section {
         grid-template-columns: 33% 33% 33%;
         text-align: justify;
+        column-gap: 20px;
       }
       .section h2{
         text-align: center;
@@ -47,5 +47,15 @@
       }
       .grid-container img {
         padding-left: 25px;
+      }
+      .Persona {
+        grid-template-columns: 55% 45%;
+        text-align: justify;
+      }
+      img.persona1{
+        margin-top: 70px;
+      }
+      img.persona2{
+        margin-top: 70px;
       }
       }

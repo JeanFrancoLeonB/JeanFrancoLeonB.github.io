@@ -19,14 +19,13 @@ html{
 header,
 footer {
  
-  color: white;
+  color: #fff;
   text-align: center;
 }
 
 nav {
   background-color: #fff;
   text-align: center;
-
 }
 
 nav ul {
@@ -53,7 +52,7 @@ nav a:hover {
 main {
 	display: grid;
 	grid-template-columns: 1fr;
-  font-size: 1rem;
+    font-size: 1rem;
   
 }
 
@@ -78,7 +77,9 @@ p {
   margin: 5px;
   color:  #fff;
 }
-
+.TA{
+    text-align: justify;
+}
 footer a {
   color: #fff;
 }
@@ -98,26 +99,27 @@ footer {
     border-style: solid;
     border-bottom: 0px;
     border-color: #1a357c;
-  padding: 20px;
+    padding: 20px;
 }
 
 footer p:last-child {
   margin-bottom: 0;
 }
-.abril {
-font-family: 'Abril Fatface', Cursive;
-font-size: 48px;}
-.poppins {
-font-family: 'Poppins', Sans-Serif;
-font-size: 16px;
+.Roboto {
+font-family: 'Roboto', sans-serif;
+font-size: 20px;}
+.Playfair {
+font-family: 'Playfair Display', serif;
+font-size: 20px;
 }
 td {
-border: 2px solid #272F32;
+border: 2px solid  #1a357c;
 text-align: center;
 padding: 10px;
 }
 table{
-  width: 100%;
+    margin-top: 40px;
+    width: 100%;
   border-collapse: collapse;
 }
 main img{
@@ -136,3 +138,10 @@ align-self: left;
   color: #fff;
   text-decoration: none;
 }
+footer.Tipo{
+    margin-top: 60px;
+}
+th{
+    color: #fff;  
+}
+

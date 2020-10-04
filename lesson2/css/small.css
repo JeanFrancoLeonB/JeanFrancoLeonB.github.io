@@ -49,6 +49,7 @@ main {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  ;
 }
 
 section h2 {
@@ -68,6 +69,7 @@ section {
 
 section img {
   border: 1px solid #4494A6;
+  height: auto;
 }
 
 section a {

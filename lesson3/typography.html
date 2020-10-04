@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typography - My Weather Channel</title>
+  <meta name="description" content="My Weather Channel typography page" />
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header class ="Grid-Header class"> 
+        <img width="100" src="images/Logo.jpg" alt="My Weather Channel Logo" />
+        <h1>My Weather Channel</h1>
+        <h2>Typography</h2>
+      </header>
+  <nav>
+    <ul>
+        <li><a href="index.html">Site Plan</a></li>
+        <li><a href="target-audience.html">Target-Audience</a></li>
+        <li><a href="color-scheme.html">Color-Scheme</a></li>
+        <li><a href="typography.html">Typography</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Typography</h2>
+    <h3>The Elements and Content in which the Typography format Will Apply</h3>
+    <table>
+      <tr>
+        <th>Font Name</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td><p>'Roboto', sans-serif</p></td>
+        <td>
+          <p class="Roboto">Main, Footer, Nav , Headings 2 and 3.
+        </td>
+      </tr>
+      <tr>
+        <td><p>'Playfair Display', serif</p></td>
+        <td>
+          <p class="Playfair">Headings 1 </p>
+        </td>
+      </tr>
+    </table>
+  </main>
+  <footer class="Tipo">
+    <p>
+        &copy; <span id="currentDate"></span> | Franco León | Trujillo - Perú | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+    <p>
+<div id = "lastModified"></div>
+   </footer>
+   <script src="js/lastModified.js"></script>
+   <script src="js/currentDate.js"></script>
 </body>
+
 </html>
