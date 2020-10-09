@@ -1,2 +1,2 @@
 const options = { year: 'numeric'};
-    document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
+    document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
