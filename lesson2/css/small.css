@@ -70,6 +70,9 @@ section {
 section img {
   border: 1px solid #4494A6;
   height: auto;
+  max-width: 230px;
+  display:block;
+  margin:auto;
 }
 
 section a {

@@ -1,21 +1,22 @@
-@media only screen and (min-width:32.5em){
-    h1{
-      font-size: 3rem;
-    } 
-    h2{
-      font-size: 2rem;
-    }
-      header img {
-            float: right;
-            margin-top: 5px;
-            margin-right: 5px;
-            border-radius: 15px;
-            box-shadow: 8px 8px 8px #444;
-        }
-      header, footer {
-        border-radius: 15px;
-      }
-    }
-   
-     
-       
+@media only screen and (min-width:32.5em) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  header img {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px #444;
+  }
+
+  header,
+  footer {
+    border-radius: 15px;
+  }
+}

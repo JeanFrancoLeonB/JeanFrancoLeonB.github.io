@@ -11,10 +11,7 @@ footer {
   font-family: 'Roboto', sans-serif;
 }
 html{
-    background-image: 
-    -webkit-gradient(linear,left top,left bottom,color-stop(9%,#1a357c)
-    ,to(#99479b));
-   
+    background-image: linear-gradient(#1a357c,#99479b);
 }
 header,
 footer {
