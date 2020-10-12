@@ -1,0 +1,51 @@
+@media only screen and (min-width: 64rem) {
+
+    nav button {
+      display: none;
+    }
+    nav ul.hide{display:flex;}
+    nav ul li {
+      float: left;
+      flex: 1 1 100%;
+      justify-content: space-evenly;
+    }
+    nav ul li a {
+      border: none;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+      padding: .6rem 1rem;
+      
+    }
+    .logo {
+      width: 10rem;
+      margin-bottom: 0;
+    }
+    .navigation li:first-child {
+		display: none;
+    }
+   
+      .headings{
+        display: grid;
+        font-size: 1rem;
+        grid-gap: 20px; 
+        grid-template-columns: 10% 45% 45%;
+      }
+      .headings h1{
+        text-align: center;
+        padding-top: 20px;
+        grid-column: 1 / 4;
+        grid-row: 1 / 1;
+      }
+      .headings div{
+        text-align: center;
+        padding-top: 60px;
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+      }
+      .headings img{
+        padding-top: 15px;
+        padding-left: 35px;
+        text-align: left;
+        grid-column: 1 / 3;
+        grid-row: 1 / 1;
+      }
+  }
