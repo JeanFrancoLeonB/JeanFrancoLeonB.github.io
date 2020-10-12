@@ -1,5 +1,8 @@
 @media only screen and (min-width: 64rem) {
-
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+      }
     nav button {
       display: none;
     }
@@ -19,6 +22,4 @@
       width: 10rem;
       margin-bottom: 0;
     }
-   
-    
   }
