@@ -24,22 +24,25 @@ body {
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
-    color: #fff;
-    border-top: 1px solid rgba(2, 64, 89, 0.4);
+    color:#1a357c;
+    background-color:  #fff;
+    border: 1px solid #1a357c;
     text-align: center;
     font-size: 1rem;
-    transition: background-color .3s;
     font-weight: bold;
+  
   }
   
   nav ul li.active a {
-    background-color: rgba(2, 64, 89, 0.2);
-    color: #fff;
+    color: #1a357c;
+    background-color: #fff;
+    text-align: center;
+  
   }
   
   nav ul li a:hover {
-    background-color: rgba(2, 64, 89, 0.4);
     color: #fff;
+    border: 1px solid #1a357c;
   }
   
   nav ul.hide {
