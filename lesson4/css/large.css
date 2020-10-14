@@ -1,12 +1,20 @@
 @media only screen and (min-width: 64rem) {
-    body {
+      
+  nav ul li a {
+      border: none;
+      padding: .6rem 1rem;
+      display: inline-block;
+  }  
+  body {
         max-width: 800px;
         margin: 0 auto;
       }
     nav button {
       display: none;
     }
-    nav ul.hide{display:flex;}
+    nav ul{
+      display:flex;
+    }
     nav ul li {
       float: left;
       flex: 1 1 100%;
