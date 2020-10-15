@@ -1,31 +1,26 @@
-@media only screen and (min-width: 64rem) {
-      
-  nav ul li a {
-      border: none;
-      padding: .6rem 1rem;
-      display: inline-block;
-  }  
+@media only screen and (min-width: 64rem) {   
   body {
-        max-width: 800px;
-        margin: 0 auto;
-      }
+    max-width: 630px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
     nav button {
       display: none;
     }
-    nav ul{
-      display:flex;
+    H2{
+      font-size: 2rem;
     }
-    nav ul li {
-      float: left;
-      flex: 1 1 100%;
-      justify-content: space-evenly;
+    nav ul{
+      margin-left: 2%;
     }
     nav ul li a {
-      border: none;
-      border-right: 1px solid rgba(0, 0, 0, 0.3);
+      border-right: 1px solid #1a357c;  
       padding: .6rem 1rem;
-      
-    }
+      display: inline-block;
+  }  
+    nav ul .hide{
+   display: block ;
+   }
     .logo {
       width: 10rem;
       margin-bottom: 0;

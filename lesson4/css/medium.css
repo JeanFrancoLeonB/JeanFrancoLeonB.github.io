@@ -3,17 +3,38 @@
     h1 {
       font-size: 2rem;
     }
-  
-    h2 {
-      font-size: 0.6rem;
+    body {
+      max-width: 550px;
+      margin: 0 auto;
+      line-height: 1.5;
     }
-    
+   
+    h2 {
+      font-size: 1.2rem;
+    }
     main,
     footer {
       font-size: 1rem;
     }
-    
     .logo{
       width: 160px;
     }
+    nav button {
+      display: none;
+    }
+    nav ul .hide{
+      display: block ;
+      }
+    nav ul {
+      margin-left: 2%;
+    }
+    nav ul li{
+       float: left;
+    }     
+    nav ul li a {
+     border:none;
+     border-right: 1px solid #1a357c;
+     padding: .6rem .6rem;
+    } 
+  
   }

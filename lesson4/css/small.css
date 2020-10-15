@@ -17,25 +17,48 @@ body {
     font-family: 'Poppins', sans-serif;
   }
   nav button {
-    padding: 10px;
-    margin: 0 5px;
+    padding: .2rem 2%;
+    background-color:transparent;
     border: none;
     font-size: 1.6rem;
+    margin: 0 5px;
+    color: #fff;
   }
+ 
   nav ul {
     overflow: hidden;
     display: block;
-    padding: .8rem 2%;
-    text-decoration: underline;
     color:#1a357c;
     background-color:  #fff;
-    border: 1px solid #1a357c;
-    text-align: center;
-    font-size: 1rem;
+    border-right: 1px solid #1a357c;
+    font-size: 0.9rem;
     font-weight: bold;
     list-style:none;
+    padding-left: 0;
+  }
+  nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-bottom: 1px solid #1a357c;  
+  }
+ 
+  nav ul li a:hover {
+    color: #fff;
+    background-color:   #1a357c;
+    border: 0.2px solid #fff;
+    text-decoration: underline ;
+  }
+    
+  nav ul .hide{
+  display: none ;
   }
   
+  /*.active{
+  color: #fff;
+  background-color: #1a357c;
+  text-decoration: underline ;} */ 
+
   h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
@@ -49,23 +72,30 @@ body {
   
   footer {
     color: #fff;
-    max-width: 1000px;
     margin: 0 auto;
+    border-style: solid;
+    border-color: #1a357c;
+    text-align: center;
+    padding-bottom:0px;
   }
   
   .logo {
     width: 80px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 4px;
   }
   .content {
     display: block;
     padding: 1rem;
-    margin: 10px auto;
+    margin: 15px auto;
     border: 1px dashed #1a357c;
     color: #fff;
   }
-  .navigation{
-    font-size: 1rem;
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
+
+    
  
