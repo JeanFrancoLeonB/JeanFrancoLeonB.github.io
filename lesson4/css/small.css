@@ -50,10 +50,10 @@ body {
     text-decoration: underline ;
   }
     
-  nav ul .hide{
-  display: none ;
+  nav ul.hide{
+    display: none;
   }
-  
+
   /*.active{
   color: #fff;
   background-color: #1a357c;
@@ -96,6 +96,20 @@ body {
     display: table;
     clear: both;
   }
+  section{
+    margin-right: 110px;
+  }
+  section h1{
+    margin-top: 0px;
+  }
+  section div{
+    text-align: center;
+  }
+  picture{
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+
 
     
  
