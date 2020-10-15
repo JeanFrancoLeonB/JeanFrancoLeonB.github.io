@@ -46,7 +46,8 @@ body {
   nav ul li a:hover {
     color: #fff;
     background-color:   #1a357c;
-    border: 0.2px solid #fff;
+    border-top: 0.2px solid #fff;
+    border-bottom: 0.2px solid #fff;
     text-decoration: underline ;
   }
     
@@ -54,11 +55,12 @@ body {
     display: none;
   }
 
-  /*.active{
-  color: #fff;
-  background-color: #1a357c;
-  text-decoration: underline ;} */ 
-
+  nav ul li.active a{
+    background-color: #1a357c;
+    color: #fff;
+    text-decoration: underline;
+    border: 1px solid #fff;
+  }
   h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
