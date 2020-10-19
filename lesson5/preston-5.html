@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preston homepage</title>
+    <meta name="description" content="Preston Homepage for My Weather Channel" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../lesson5/css/small.css">
+    <link rel="stylesheet" href="../lesson5/css/medium.css">
+    <link rel="stylesheet" href="../lesson5/css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins:300" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section id="friday-only" class="saturday">
+            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+        </section>
+        <section id="head" class="head">
+            <picture>
+                <img width="80" src="images/logo.jpg" alt="My Weather Channel Logo" />
+            </picture>
+            <section class="sechead">
+                <h1>My Weather Channel</h1>
+                <div>Ready to go outside with us!</div>
+            </section>
+        </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Preston Idaho</h2>
+            <div class="herodiv">
+              <picture>
+                <img class="hero-ph" src="images/hco.jpg" alt="Trujillo-Huanchaco" />
+              </picture>
+              <section class="weathersummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: Sunny</p>
+                <p>High: 72 &#8457;</p>
+                <p>Wind Chill: &#8457;</p>
+                <p>Humidity: 22%</p>
+                <p>Wind Speed: 11mph</p>
+              </section>
+            </div>
+        
+            <div class="fiveday">
+              <h3>5 Day Forecast</h3>
+              <table>
+                <tr>
+                  <th>Mon</th>
+                  <th>Tue</th>
+                  <th>Wed</th>
+                  <th>Thur</th>
+                  <th>Fri</th>
+                </tr>
+                <tr>
+                  <td><img src="images/sunny.png" alt="sunny"></td>
+                  <td><img src="images/sunny.png" alt="sunny"></td>
+                  <td><img src="images/snowy.png" alt="snowy"></td>
+                  <td><img src="images/snowy.png" alt="snowy"></td>
+                  <td><img src="images/sunny.png" alt="sunny"></td>
+                </tr>
+                <tr>
+                  <td> 72 &#8457;</td>
+                  <td> 72 &#8457;</td>
+                  <td> 68 &#8457;</td>
+                  <td> 70 &#8457;</td>
+                  <td> 72 &#8457;</td>
+                </tr>
+              </table>
+            </div>
+            <section class="articleCity clearfix">
+                <img src="images/pelicanohco.JPG" alt="Pelicans in Huanchaco" />
+                <h3>Article Description</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent mollis mollis hendrerit. Donec auctor commodo
+                    magna, eget varius dui eleifend at. Quisque tellus ex,
+                    tempus vel auctor non, laoreet sed sem. Duis vel justo
+                    placerat, ultricies tellus vitae, aliquet leo. Aenean
+                    eu pharetra nisl. Aliquam sed tristique lorem, sit
+                    amet fringilla ipsum. Proin lacus massa, tempus et
+                    porttitor et, vehicula et orci.
+                    Vivamus at bibendum lorem.
+                    Mauris rutrum tincidunt turpis vel hendrerit.
+                    Nam congue pulvinar libero. Nam vitae elit eget lacus
+                    lacinia vestibulum et id felis. In ac ligula quis 
+                    nisi interdum molestie. Curabitur aliquet mi eget
+                    bibendum placerat. Nunc non tellus non est facilisis 
+                    laoreet ac vitae sapien. Donec lobortis purus massa, 
+                    vel tempus nisi efficitur at. Phasellus tortor risus,
+                    imperdiet ut libero a, venenatis pharetra diam. Sed 
+                    placerat condimentum volutpat. Suspendisse interdum 
+                    at felis a dapibus. Ut vitae fermentum felis, vehicula 
+                    porta metus. Sed placerat condimentum volutpat. 
+                    Suspendisse interdum at felis a dapibus. Ut vitae
+                    fermentum felis, vehicula porta metus.</p>
+            </section>
+            <div class="contact">
+                <img class="map" src="images/maps.png" alt="Trujillo-Perú">
+              <div class="contactInfo">
+                <h3>Southeast Idaho Local</h3>
+                <div class="contactItem address">
+                  <img src="images/ubication.png" alt="ubication icon">
+                  <p>309 Bartolome de las Casas <br>San Jose de California-Trujillo</p>
+                </div>
+                <div class="contactItem phone">
+                  <img src="images/phone.png" alt="mobile phone icon">
+                  <p> (051) 044-200298</p>
+                </div>
+                <div class="contactItem email">
+                  <img src="images/email.jpg" alt="email icon">
+                  <p>francoleon@byui.com</p>
+                </div>
+                <div class="social">
+                  <a target="_blank" href="https://www.facebook.com/"><img width="30" src="images/facebook.png" alt="facebook icon"></a>
+                  <a target="_blank" href="https://www.youtube.com//"><img width="30" src="images/youtube.jpg" alt="youtubr icon"></a>
+                  <a target="_blank" href="https://www.instagram.com/"><img width="30" src="images/instagram.jpg" alt="instagram icon"></a>
+                </div>
+              </div>
+              </div>
+        </main>
+        <footer>
+            <p>&copy; The Weather Site | Attributions | Franco León</p>
+            <div><span id="currentday"></span></div>
+        </footer>
+        <script src="js/currentday.js"></script>
+        <script src="js/preston.js"></script>
+        <script src="js/saturday.js"></script>
+</body>
+
+</html>
