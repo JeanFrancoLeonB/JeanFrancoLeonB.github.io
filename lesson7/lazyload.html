@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lazy load page</title>
+    <meta name="description" content="Images that have Lazy Load">
+    <link href="../lesson1/css/normalize.css" rel="stylesheet" />
+    <link href="css/lazyload.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Progressive Loading (Images)</h1>
+    </header>
+    <main>
+
+        <picture><img  src="images/images.jpg" data-src="images/toucan.jpg" alt="picture 1" /></picture>
+        <picture><img  src="images/images.jpg" data-src="images/dolphin.jpg" alt="picture 2" /></picture>
+        <picture><img  src="images/images.jpg" data-src="images/leopard.JPG" alt="picture 3" /></picture>
+        <picture><img  src="images/images.jpg" data-src="images/crab.jpg" alt="picture 4" /></picture>
+        <picture><img  src="images/images.jpg" data-src="images/tiger.jpg" alt="picture 5" /></picture>
+        <picture><img  src="images/images.jpg" data-src="images/turtle.jpg" alt="picture 6" /></picture>
+    </main>
+    <script src="js/lazyload.js"></script>
+</body>
+
+</html>
